@@ -1,0 +1,210 @@
+.bigContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 95%;
+    height: 95%;
+    border:double 5px black;
+    margin-top: 0.7%;
+    padding-top: 1%;
+}
+/* nomor kop */
+.nomor{
+    width: 100%;
+    display: flex;
+    margin-left: 68%;
+}
+.nomor div:nth-child(1){
+    width: 13%;
+    height: 5%;
+    
+}
+.nomor div:nth-child(2){
+    width: 2%;
+    height: 5%;
+    
+}
+/* tahun anggaran kop */
+.tahunAnggaran{
+    width: 100%;
+    display: flex;
+    margin-left: 68%;
+}
+.tahunAnggaran div:nth-child(1){
+    width: 13%;
+    height: 5%;
+    
+}
+.tahunAnggaran div:nth-child(2){
+    width: 10%;
+    height: 5%;
+    
+}
+/* judul kuitansi */
+.judulKuitansi{
+    
+    width: 100%;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* sudah terima dari */
+.sudahTerima{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+   
+}
+.sudahTerima div:nth-child(1){
+    width: 20%;
+    margin-left: 3%;
+}
+.sudahTerima div:nth-child(2){
+    width: 1%;
+   
+}
+.sudahTerima div:nth-child(3){
+    font-weight: bold;
+   
+}
+/* uang sebanyak */
+.uangSebanyak{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+   
+}
+.uangSebanyak div:nth-child(1){
+    width: 20%;
+    margin-left: 3%;
+}
+.uangSebanyak div:nth-child(2){
+    width: 1%;
+   
+}
+.uangSebanyak div:nth-child(3){
+    font-weight: bold;
+   width: 70%;
+    background-color: rgb(206, 206, 206);
+}
+/* kotakan guna membayar*/
+.kotakanGunaMembayar{
+    
+    height: 49%;
+}
+/* guna membayar */
+.gunaMembayar{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+   
+   
+}
+.gunaMembayar div:nth-child(1){
+    width: 20%;
+    margin-left: 3%;
+}
+.gunaMembayar div:nth-child(2){
+    width: 1%;
+   
+}
+.gunaMembayar div:nth-child(3){
+   overflow-wrap: break-word;
+    width:70%;
+   
+}
+/* list alat */
+.listAlat{
+    width: 100%;
+height: 35%;
+
+}
+/* tabel */
+.tabel{
+    width: 74%;
+    margin-left: 24%;
+   
+    
+}
+.tabel td{
+    
+}
+
+.tabel td:nth-child(1){
+    width: 2%;
+}
+.tabel td:nth-child(2){
+    width: 3%;
+}
+.tabel td:nth-child(3){
+    width: 6%;
+}
+/* item */
+.tabel td:nth-child(4){
+    width: 40%;
+}
+/* Rp 1 */
+.tabel td:nth-child(5){
+    width: 8%;
+}
+/* harga 1*/
+.tabel td:nth-child(6){
+    width: 15%;
+}
+/* Rp 2*/
+.tabel td:nth-child(7){
+    width: 8%;
+}
+
+/* total harga */
+.totalHarga{
+    margin-top: 1%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.totalHarga div:nth-child(1){
+    margin-left: 71%;
+}
+.totalHarga div:nth-child(2){
+    margin-left: 1.2%;
+}
+.totalHarga div:nth-child(3){
+    margin-left: 3.5%;
+}
+/* bawah yaitu bagian tgl dll */
+.bawah{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.bawah div:nth-child(1){
+    margin-left: 3%;
+    font-weight: bold;
+    background-color: rgb(206, 206, 206);
+    border: solid 1px black;
+}
+.bawah div:nth-child(2){
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.bawah div:nth-child(3){
+    margin-left: 63%;
+
+}
+
+/*nama terang */
+.namaTerang{
+    display: flex;
+    align-items: flex-end;
+    height: 20%;
+    margin-left:35%;
+}
