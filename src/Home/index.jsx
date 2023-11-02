@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+/*import React, { useEffect } from "react";
 import style from "./style.module.css";
 import LogoPlus from "../Gambar/tambah.png";
 import { useState } from "react";
@@ -229,3 +229,23 @@ function convertToWords(nominal) {
   );
 };
 export default Home;
+*/
+import React from "react";
+import addNotification from "react-push-notification";
+
+const App=()=>{
+  const Notify=()=>{
+    addNotification({
+      title:"test push notif",
+      message:"hai, berhasil kan",
+      duration:4000,
+      native:true,
+    })
+  }
+return(
+  <div>
+    <button onClick={Notify}>Notify</button>
+  </div>
+)
+}
+export default App;
